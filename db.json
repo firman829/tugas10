@@ -1,0 +1,46 @@
+{
+  "myRecipes": [
+    {
+      "id": "1752385192425",
+      "strMeal": "pizza",
+      "strCategory": "amerika",
+      "strInstructions": "pizza tidak enak",
+      "strMealThumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvmuXUyemcqEIGweDJZ4OmhfwV9qp68lAe8g&s",
+      "idMeal": "local_1752385192425"
+    },
+    {
+      "id": "1752385263126",
+      "strMeal": "bakso",
+      "strCategory": "indonesia",
+      "strInstructions": "jsbdhjabdjhs vcbsd cj",
+      "strMealThumb": "https://assets.unileversolutions.com/recipes-v2/245281.jpg",
+      "idMeal": "local_1752385263126"
+    },
+    {
+      "id": "1752385320090",
+      "strMeal": "ayam goreng",
+      "strCategory": "malaysia",
+      "strInstructions": "bdjhsvcjhdvjhsvcsdjv",
+      "strMealThumb": "https://www.unileverfoodsolutions.co.id/dam/global-ufs/mcos/SEA/calcmenu/recipes/ID-recipes/chicken-&-other-poultry-dishes/crispy-fried-chicken/Ayam%20Goreng%20Krispy1260x700.jpg",
+      "idMeal": "local_1752385320090"
+    },
+    {
+      "id": "1752386182680",
+      "strMeal": "karage",
+      "strCategory": "jepang",
+      "strInstructions": "jdhjvsjhdvshjcvjhsdvcjhsd",
+      "strMealThumb": "https://asset.kompas.com/crops/T6YH1mBwpOlCu8GccNlFhoniDsM=/0x0:1000x667/1200x800/data/photo/2023/01/27/63d32f161d7cf.jpg",
+      "idMeal": "local_1752386182680"
+    }
+  ],
+  "favorites": [
+    {
+      "id": "local_1752385192425",
+      "strMeal": "pizza",
+      "strCategory": "amerika",
+      "strInstructions": "hsgdavhsgdvshgcvsdhgcv",
+      "strMealThumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvmuXUyemcqEIGweDJZ4OmhfwV9qp68lAe8g&s",
+      "idMeal": "local_1752385192425"
+    }
+  ]
+}

@@ -1,27 +1,45 @@
+// src/router/index.js
 import { createRouter, createWebHistory } from 'vue-router'
-import MenuPage from '../views/menu.vue'
 
-const menuList = [
-  { path: '/dashboard', name: 'Dashboard' },
-  { path: '/profil', name: 'Profil Saya' },
-  { path: '/pesanan', name: 'Pesanan' },
-  { path: '/produk', name: 'Produk' },
-  { path: '/laporan', name: 'Laporan Keuangan' },
-  { path: '/pengaturan', name: 'Pengaturan' },
-  { path: '/notifikasi', name: 'Notifikasi' },
-  { path: '/bantuan', name: 'Bantuan' },
-  { path: '/tentang', name: 'Tentang Aplikasi' },
-  { path: '/keluar', name: 'Keluar' }
-]
+// Import komponen halaman (views)
+import Home from '../views/Home.vue'
+import RecipeDetail from '../views/RecipeDetail.vue'
+import Favorites from '../views/Favorites.vue'
+import AddRecipe from '../views/AddRecipe.vue'
+import MyRecipes from '../views/MyRecipes.vue'
+import EditRecipe from '../views/EditRecipe.vue' 
 
 const routes = [
-  { path: '/', redirect: menuList[0].path },
-  ...menuList.map(menu => ({
-    path: menu.path,
-    name: menu.name,
-    component: MenuPage,
-    props: { menuTitle: menu.name }
-  }))
+  {
+    path: '/',
+    name: 'Home',
+    component: Home
+  },
+  {
+    path: '/recipe/:id',
+    name: 'RecipeDetail',
+    component: RecipeDetail
+  },
+  {
+    path: '/favorites',
+    name: 'Favorites',
+    component: Favorites
+  },
+  {
+    path: '/add',
+    name: 'AddRecipe',
+    component: AddRecipe
+  },
+  {
+    path: '/my-recipes',
+    name: 'MyRecipes',
+    component: MyRecipes
+  },
+  {
+    path: '/edit/:id', 
+    name: 'EditRecipe',
+    component: EditRecipe
+  }
 ]
 
 const router = createRouter({
@@ -29,5 +47,4 @@ const router = createRouter({
   routes
 })
 
-export { menuList }
 export default router
